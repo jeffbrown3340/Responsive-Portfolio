@@ -111,26 +111,14 @@ footer {
   clear: both;
   color: #fff;
   color: #ccc;
-  font-size: 12px;
-  text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
-}
 
-
-/*sidebar*/
+/* sidebar*/
 
 .sidebar {
   padding: 30px;
   width: 100%;
   max-width: 270px;
-  float: right;
-  margin-bottom: 20px;
-  background: #fff;
-  border: 1px solid #ddd;
-}
-
-h3,
+ 3,
 .sidebar h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
@@ -252,22 +240,27 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
+  section h1 {
+    color: red;
+  }
+
+  #logo {
+    color: red;
+  }
+  
+
   .sidebar {
     float: clear;
     max-width: 100%;
     width: 100%;
   }
 
-  .work {
-    width: 100%;
-  }
-
-
 }
 
 @media screen and (max-width: 640px) {
   
   #logo {
+    color: red;
     width:100%;
   }
   nav {
@@ -281,20 +274,11 @@ input[type=submit] {
   nav a {
     text-align: center;
     width: 30%;
-  }
-
-  .auth-image {
-    float: clear;
-    width: 100%;
-  }
+}
 
   .sidebar {
     float: clear;
     max-width: 100%;
-    width: 100%;
-  }
-
-  .work {
     width: 100%;
   }
 

@@ -252,22 +252,26 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
+  section h1 {
+    color: red;
+  }
+
+  #logo {
+    color: red;
+  }
+  
   .sidebar {
     float: clear;
     max-width: 100%;
     width: 100%;
   }
 
-  .work {
-    width: 100%;
-  }
-
-
 }
 
 @media screen and (max-width: 640px) {
   
   #logo {
+    color: red;
     width:100%;
   }
   nav {
@@ -291,10 +295,6 @@ input[type=submit] {
   .sidebar {
     float: clear;
     max-width: 100%;
-    width: 100%;
-  }
-
-  .work {
     width: 100%;
   }
 
